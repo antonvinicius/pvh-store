@@ -1,0 +1,43 @@
+body {
+    background-color: #02111B !important;
+}
+.btn-action {
+    cursor: pointer;
+    padding: 5px 20px 5px 20px;
+    font-size: 600;
+    background-color: #02111B;
+    border: 3px solid #EFC91F;
+    color: white;
+    font-weight: 700;
+    font-size: 30px;
+    transition: 0.3s;
+}
+.btn-action:hover {
+    color: #02111B;
+    background-color: #EFC91F;
+}
+.product-info p {
+    margin-bottom: 5px;
+}
+.product-title {
+    background-color: #EFC91F;
+    text-align: center;
+}
+.product-info {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 60%;
+    overflow: hidden;
+    color: #fff;
+}
+.product-info img {
+    float: left;
+    max-width: 300px;
+}
+.bg {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

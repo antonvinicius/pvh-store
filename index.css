@@ -1,0 +1,143 @@
+.about {
+    background-color: #02111B;
+    padding-bottom: 40px;
+}
+.about-wrapper {
+    text-align: center;
+}
+.about-img-1, .about-img-2{
+    display: inline-block;
+    width: 500px;
+    height: 500px;
+    margin-top: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.about-img-1 {
+    background-image: url('/assets/images/accessories/info-section-01.svg');
+    background-size: 80%;
+    background-position: center;
+}
+.about-img-2 {
+    background-image: url('/assets/images/accessories/info-section-02.svg');
+}
+
+.button {
+    text-align: center;
+}
+.btn-action {
+    cursor: pointer;
+    padding: 5px 20px 5px 20px;
+    font-size: 600;
+    background-color: #02111B;
+    border: 3px solid #EFC91F;
+    color: white;
+    font-size: 40px;
+    transition: 0.3s;
+}
+.btn-action:hover {
+    transform: scale(1.1);
+}
+
+/* Main */
+.products-bg {
+    overflow: hidden;
+    position: absolute;
+    top: 100%;
+    width: 100%;
+}
+.section-title {
+    margin-top: 40px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 32px;
+}
+
+.products-container {
+    text-align: center;
+}
+.block {
+    margin-left: 30px;
+    height: 700px;
+    width: 400px;
+    background-color: yellow;
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    transition: all 0.1s ease-in;
+}
+.block:hover {
+    color: #EFC91F;
+}
+
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-weight: 600;
+    font-size: 30px;
+    font-style: italic;
+}
+.phone {
+    background-image: url('/assets/images/floating-phone.jpg');
+}
+.accessorie {
+    background-image: url('/assets/images/phone-with-accessories.jpg');
+}
+
+.brands-container {
+    text-align: center;
+    padding: 20px;
+}
+.brands-circle {
+    margin-left: 20px;
+    display: inline-block;
+    padding: 20px;
+    background-color: #EFC91F;
+    border-radius: 50%;
+}
+.brands-circle img {
+    width: 80px;
+}
+
+hr {
+    margin: auto;
+    width: 50%;
+}
+
+/* Footer */
+footer {
+    color: white;
+    background-color: #02111B;
+    margin-top: 50px;
+    padding-bottom: 10px;
+}
+.contact-container {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+.contact-container .logo {
+    margin-top: 50px;
+    width: 200px;
+}
+.contact-wrapper {
+    display: inline-block;
+}
+
+.social-media img {
+    width: 30px;
+}
+
+footer p {
+    margin-top: 20px;
+    text-align: center;
+}
+
+
+
+
+

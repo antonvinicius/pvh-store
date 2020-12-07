@@ -1,0 +1,32 @@
+body {
+    background-color: #02111B;
+}
+
+.main-title{
+    text-align: center;
+    color: #EFC91F;
+}
+.product-accessories {
+    margin: 50px;
+    display: inline-block;
+    text-align: center;
+    -webkit-box-shadow: 4px 2px 51px -2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 4px 2px 51px -2px rgba(0,0,0,0.75);
+    box-shadow: 4px 2px 51px -2px rgba(0,0,0,0.75);
+}
+.title {
+    background-color: #EFC91F;
+    color: #02111B;
+}
+.row {
+    text-align: center;
+}
+.bg {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 300px;
+    background-image: url('/assets/images/bg.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
